@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishakan Sir's IAS Coaching</title>
+
+  <!-- Site icon (browser tab / title bar) -->
+  <link rel="icon" type="image/png" href="./assets/logo.png" />
+  <link rel="apple-touch-icon" href="./assets/logo.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="static.css" />
+
+  <!--  --> <!-- Link Swiper's CSS -->
+      
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js">
+  </script>
+  <script src="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.js">
+  </script>
+
+  <!-- ✅ make sure your site JS loads -->
+  <script src="./static.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="top-bar">
+
+      <div class="container nav">
+        <div class="logo-area">
+          <img src="./assets/logo.png" class="logo" alt="Academy Logo">
+          <h2>
+            <span class="brand-line">Vishakan Sir's  IAS Coaching</span>
+         
+          </h2>
+        </div>
+
+        <!-- Mobile hamburger (shown only on small screens) -->
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
+
+        <nav>
+
+          <ul id="primary-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+             <li><a href="#video">Videos</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            
+            <a href="#contact" class="btn enroll nav-cta">Enroll Now</a>
+          </ul>
+        </nav>
+
+    
+
+      </div>
+    </div>
+  </header>
+
+
+
+  <section class="hero-slider" id="home">
+    <!-- Navigation Arrows -->
+    <button class="hero-prev" onclick="moveHeroSlide(-1)">❮</button>
+    <button class="hero-next" onclick="moveHeroSlide(1)">❯</button>
+
+    <div class="slider-container">
+      <div class="slider-wrapper">
+        <div class="hero-slide hero-image-slide active">
+          <img class="hero-slide-img" src="./assets/slider1.png" alt="Hero slide 1">
+        </div>
+
+        <div class="hero-slide hero-image-slide">
+          <img class="hero-slide-img" src="./assets/slider2.png" alt="Hero slide 2">
+        </div>
+
+        <div class="hero-slide hero-image-slide">
+          <img class="hero-slide-img" src="./assets/slider3.png" alt="Hero slide 3">
+        </div>
+      </div>
+
+
+      <!-- Navigation Dots -->
+      <div class="hero-dots">
+        <span class="hero-dot active" data-slide="0"></span>
+        <span class="hero-dot" data-slide="1"></span>
+        <span class="hero-dot" data-slide="2"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- section about us ----------------------------------------------------------------------------------------------------------- -->
+
+  <section id="about" class="about-founder">
+    <div class="container about-founder-header">
+      <h2>About Us</h2>
+      <p class="about-founder-subtitle">The driving force behind our student's success.</p>
+      <span class="about-founder-underline" aria-hidden="true"></span>
+    </div>
+
+    <div class="container about-founder-body">
+      
+      <div class="about-founder-media" aria-hidden="true">
+        <img src="./assets/Vishakan.png" alt="Founder" class="about-founder-image">
+      </div>
+
+      <div class="about-founder-content">
+        <h3 class="about-founder-name">R. VISHAKAN</h3>
+        <div class="about-founder-qual">B.E., M.Sc. (Psychology)</div>
+        <p class="about-founder-role">Founder-Director </p>
+
+        <p>
+          With over <b> 7 years </b>of dedicated teaching experience, our Founder R. Vishakan, a <b>UGC-NET Qualified</b> faculty member, is a trusted 
+          mentor for serious UPSC aspirants. Having himself successfully <b>cleared multiple UPSC Mains
+           examinations and appeared for the UPSC Interview,</b> and having guided numerous aspirants 
+           through their preparation journey, he brings rare, first-hand insight into handling every 
+           stage of the Civil Services Examination—from the Prelims race pressure, to the Mains marathon 
+           stress, and finally to the calm composure required for the Interview personality test.
+           </p>
+           
+           <p> His unique approach of <b>blending humour with core UPSC</b> concepts while simplifying complex topics is a hallmark of his teaching style, making learning both effective and engaging. This approach goes beyond mere content mastery to focus on mental resilience, exam temperament, consistency, 
+          and decision-making under pressure—often the decisive factors in UPSC success.
+        </p>
+
+        
+        <div class="about-founder-stats" aria-label="Founder highlights">
+          <div class="about-founder-stat">
+            <div class="about-founder-stat-value">7+</div>
+            <div class="about-founder-stat-label">Years Teaching</div>
+          </div>
+
+          <div class="about-founder-stat">
+            <div class="about-founder-stat-value">3x</div>
+            <div class="about-founder-stat-label">Mains &amp; Interview</div>
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <section id="about" class="about-founder">
+    <div class="container about-founder-header">
+      <h2>About Us</h2>
+      <p class="about-founder-subtitle">The driving force behind our student's success.</p>
+      <span class="about-founder-underline" aria-hidden="true"></span>
+    </div>
+    
+
+    <div class="container about-founder-body">
+      <div class="about-founder-media" aria-hidden="true">
+        <img src="./assets/thavamony.png" alt="Founder" class="about-founder-image">
+      </div>
+
+      <div class="about-founder-content">
+        <h3 class="about-founder-name">MRS. THAVAMONY RAMAN</h3>
+        <div class="about-founder-qual">M.Com, M.Phil, M.A. (Eng), M.Sc. (Psychology)</div>
+        <p class="about-founder-role">Co-Founder &amp; Academic  and  Administrative Director</p>
+
+        <p>
+          With a prolific career spanning over four decades, Mrs. Thavamony Raman serves as the backbone of Vishakan 
+          Sir’s IAS Coaching. She brings an unparalleled wealth of experience, including over two decades in the finance 
+          sector, along with a deep passion for human excellence. As a Life Coach, Behavioral Therapist, and Personality 
+          Development Trainer, Mrs. Thavamony ensures that the institute is more than just a coaching center—it is a 
+          nurturing environment and supportive ecosystem for personal growth.
+        </p>
+
+        <p>
+          Her expertise as a Psychologist enables her to provide specialized support in stress and anxiety management, 
+          behavioural and attitudinal development, all of which are essential for success in the UPSC Personality Test. At 
+          the institute, she oversees administrative excellence and financial integrity, while ensuring that every aspirant 
+          receives thoughtful guidance and professional counselling to remain resilient, focused, and confident throughout 
+          their civil services journey
+        </p>
+
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Offered Section  -------------------------------------------------------------------------------------------------------------->
+
+
+  <section id="courses" class="courses">
+    <h1 class="courses-title">
+      <span class="courses-title-main">COURSES OFFERED</span><br>
+      <span class="courses-title-sub">Bilingual - Tamil + English</span>
+      <span class="courses-title-sub">Online / Offline</span>
+    </h1>
+    <p class="subtitle">Structured programs designed for guaranteed success.</p>
+    <div class="divider"></div>
+
+    <div class="cards">
+      <div class="card">
+        <h2>PRELIMS MODULE</h2>
+        <!-- <p class="desc">
+          A comprehensive program covering the entire UPSC syllabus from scratch.
+          Ideal for beginners aiming for a strong conceptual foundation.
+        </p> -->
+        <ul>
+          <li>Polity Foundation </li>
+          <li> Economics</li>
+          <li>Geography</li>
+          <li> History</li>
+          <li>Environment</li>
+        </ul>
+        <a class="course-enquire-btn" href="#contact">Enquire Now</a>
+      </div>
+      <div class="card">
+        <h2>MAINS MODULE</h2>
+        <!-- <p class="desc">
+         An intensive program focused for content development and understanding the Mains
+          perspective and mastering the art of answer writing.
+        </p> -->
+        <ul>
+          <li>International Relations</li>
+          <li>Essay Module </li>
+          <li>  World History </li>
+          <li>  Post Independence</li>
+        </ul>
+        <a class="course-enquire-btn" href="#contact">Enquire Now</a>
+      </div>
+      <div class="card">
+        <h2>PSYCHOLOGY OPTIONAL</h2>
+        
+        <ul>
+          <li>200+ hours module</li>
+          <li>Comprehensive coverage of Paper I & Paper II</li>
+          <li>Test series module included</li>
+          <li>Learn from a UGC-NET Qualified Psychology faculty with  +7 years</li>
+          <!-- <li> +7 years of UPSC teaching & </li>
+          <li> 3 Mains and 1 Interview experience</li>
+          <li>Obtained high score in Psychology Mains himself</li> -->
+        </ul>
+        <a class="course-enquire-btn" href="#contact">Enquire Now</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- End of Courses Offered Section  -------------------------------------------------------------------------------------------------------------->
+
+  <!-- why choose us  -------------------------------------------------------------------------------------------------------------->
+  <section id="choose" class="why-section">
+    <div class="why-container">
+      <h2>Why Choose Us?</h2>
+      <p>The Distinctive Edge for Your IAS Aspiration.</p>
+      <span class="why-underline" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <section class="why-cards-section" aria-label="Why Choose Us">
+    <div class="container why-cards-grid">
+      <article class="why-card">
+        <div class="why-card-icon" aria-hidden="true">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <h3>DIRECT MENTORSHIP</h3>
+        <!-- <p>
+          Learn directly from a mentor who has personally navigated every stage of the UPSC journey—from Prelims to Mains to the Interview—and has successfully guided numerous aspirants through the same cycle.
+        </p> -->
+      </article>
+
+      <article class="why-card">
+        <div class="why-card-icon" aria-hidden="true">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <h3>PSYCHOLOGICAL </h3>
+         <h2>   +   </h2> 
+        <h3>  HUMAN EDGE</h3>
+        <!-- <p>
+          UPSC is not just an academic examination—it is a test of psychological endurance. Our psychology-driven approach equips 
+          you to handle real-time exam situations with clarity, balance, and confidence.
+        </p> -->
+      </article>
+
+      <article class="why-card">
+        <div class="why-card-icon" aria-hidden="true">
+          <i class="fa-solid fa-desktop"></i>
+        </div>
+        <h3>PERSONALISED GUIDANCE</h3>
+        <!-- <p>
+          Our curriculum is designed with a strong personal connect, ensuring that no aspirant gets lost in the crowd.
+           Preparation remains focused, continuous, and strategically aligned across all stages.
+        </p> -->
+      </article>
+
+      <article class="why-card">
+        <div class="why-card-icon" aria-hidden="true">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+        <h3>LIMITED BATCH SIZE</h3>
+        <!-- <p>
+         We maintain strictly limited batches to ensure individual attention, regular feedback, and close academic 
+         monitoring—because serious preparation demands depth, not numbers.
+        </p> -->
+      </article>
+    </div>
+  </section>
+  <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+  <!--  VIDEO SECTION----------- -->
+  <section id="video" class="video-section">
+    <h2 class="video-title">Explore Our Video Lectures</h2>
+    <span class="video-underline" aria-hidden="true"></span>
+
+    <div class="video-carousel-container">
+      <button class="video-nav-btn" onclick="prevVideoSlide()">❮</button>
+
+      <div class="video-carousel-wrapper">
+        <div class="video-carousel-track" id="videoCarouselTrack">
+          <!-- Videos will be inserted here by JS -->
+        </div>
+      </div>
+
+     
+      <button class="video-nav-btn video-next" onclick="nextVideoSlide()">❯</button>
+    </div>
+  </section>
+  <!-- End of VIDEO SECTION----------- -->
+
+
+
+  <!-- TESTIMONIALS (Achievers) -->
+  <section id="testimonials" class="achievers-section">
+    <div class="container">
+      <h2 class="achievers-title"> Student's Testimonials </h2></br>
+      <p class="achievers-subtitle">Stories of dedication, strategy, and success.</p>
+      <span class="achievers-underline" aria-hidden="true"></span>
+
+      <div class="achievers-carousel" aria-label="Student testimonials slider">
+        <div class="achievers-carousel-viewport">
+          <div class="achievers-carousel-track" id="achieversTrack">
+            <div class="achiever-slide">
+              <article class="achiever-card">
+          <div class="achiever-avatar achiever-avatar--neha">
+            <img class="achiever-avatar-img achiever-avatar-img--neha" src="./assets/nehaa.jpeg" alt="Neha"
+              onerror="this.remove();">
+
+          </div>
+
+          <p class="achiever-quote">
+           I am Nehaa K, AIR 175 CSE 2023. I took psychology guidance from Vishakan sir for mains. It was at a very short notice, but sir took time out to examine my paper, give me inputs that made my paper more presentable and practical.
+The DAF-drafting and guidance during interview was crucial to boost my confidence and explore the otherwise hidden areas of my DAF. The one on one session helped me further analyse and perfect my answers. Thank you for your support and best wishes throughout the process sir. Grateful for the same.
+          </p>
+
+          <P class="achiever-name">Nehaa K</P>
+          <p class="achiever-rank"> AIR 175 UPSC CSE 2023 </p>
+              </article>
+            </div>
+
+            <div class="achiever-slide">
+              <article class="achiever-card">
+          <div class="achiever-avatar">
+            <img class="achiever-avatar-img" src="./assets/Arun Pravin.jpg" alt="ARUN PRAVIN"
+              onerror="this.remove();">
+
+          </div>
+
+          <p class="achiever-quote">
+            I began my UPSC journey from absolute scratch, without confidence or clarity. Today, whatever clarity I have in
+             subjects andapproach is because of my teachers. Vishakan sir didn’t just teach UPSC topics—he taught me how to 
+             think, how to structure answers, and most importantly, how to believe in myself. Whenever I felt confused or demotivated, 
+             his patient guidance kept me moving forward and made this tough journey disciplined, meaningful, andhopeful.Thank you sir,
+              for your guidance, support, and belief in me. </br>
+          </br>
+          At the same time, Thavamony mam transformed my fear of English into confidence. Starting from basic sentence formation and
+             tenses, her simple, practical, and encouraging teaching helped me build a strong foundation in English. Her dedication, 
+             kindness, and teaching method made a huge difference in my learning journey. I will always remain grateful to both my
+              teachers and mentors for laying a strong foundation—academically and mentally—for my UPSC journey.” </p>
+           
+          <p class="achiever-name">ARUN PRAVIN</p>
+          <p class="achiever-rank">  PCM Batch 2024-25</p>
+              </article>
+            </div>
+
+            <div class="achiever-slide">
+              <article class="achiever-card">
+          <div class="achiever-avatar">
+            <img class="achiever-avatar-img" src="./assets/Arun Kumar.jpg" alt="Mr.Arun Kumar"
+              onerror="this.remove();">
+
+          </div>
+
+          <p class="achiever-quote">
+           Vishakan Sir’s teaching is clear, engaging, and conceptually strong, making even complex subjects easy to understand.
+            His Psychology classes provide deep insights into personality, attitude, and ethical values through a friendly,
+             fun-based approach. Beyond academics, he imparts valuable life lessons on morals and character. I truly hope 
+             Vishakan Sir reaches every UPSC aspirant with his teachings on moral, ethical, and positive attitudes, which are 
+             crucial for this generation. 
+          </p>
+
+          <P class="achiever-name"> Mr.Arun Kumar</P>
+          <p class="achiever-rank">Psychology 2025 Batch</p>
+              </article>
+            </div>
+
+            <div class="achiever-slide">
+              <article class="achiever-card">
+                <div class="achiever-avatar">
+                  <img class="achiever-avatar-img" src="./assets/Gayatri.jpg" alt="Gayatri"
+                    onerror="this.remove();">
+                </div>
+
+                <p class="achiever-quote">
+                 I never felt the toughness regardless of my educational background. Your class helped me to recall the concepts during 
+                 the test rather than re-reading the topics. In one word, optional made my upsc preparation easy. I'm assured that I'll
+                  be scoring 300+ in optional. Your tests simultaneously with the classes helped me recall the subject and helped me analyse 
+                  the concepts too.
+                </p>
+
+                <p class="achiever-name">Gayatri</p>
+                <p class="achiever-rank"> Psychology Batch 2025</p>
+              </article>
+            </div>
+
+            <div class="achiever-slide">
+              <article class="achiever-card">
+                <div class="achiever-avatar">
+                  <img class="achiever-avatar-img" src="./assets/gowtham.jpeg" alt="Goutham"
+                    onerror="this.remove();">
+                </div>
+
+                <p class="achiever-quote">
+                 As a UPSC aspirant, I found the institute’s approach extremely effective and exam-oriented. Concepts are explained 
+                 in simple and clear language, and the structured breakdown of the syllabus itself builds confidence from the very 
+                 beginning.History was my major area of difficulty, but the way it was taught here made the subject feel manageable
+                  and almost effortless. The notes provided are strictly UPSC-relevant, which greatly helps in focused revision and 
+                  better retention.The ease of access, clarity in teaching, and the sincere effort taken to ensure conceptual
+                   understanding in an efficient and elegant manner are truly commendable. I am grateful for the guidance and 
+                   support throughout my preparation.
+
+                </p>
+
+                <p class="achiever-name">Goutham VigneshPandi</p>
+                <p class="achiever-rank"> PCM Batch 2026 & One-on-one Mentorship </p>
+                 
+              </article>
+            </div>
+
+            <div class="achiever-slide">
+              <article class="achiever-card">
+                <div class="achiever-avatar">
+                  <img class="achiever-avatar-img" src="./assets/Athish.jpg" alt="Athish"
+                    onerror="this.remove();">
+                </div>
+
+                <p class="achiever-quote">
+                  This course really helped me a lot to learn the past 1 year current affairs with basics. 
+                  Along with this we equipped to solve various questions that will definitely help in prelims.
+                  Improved the questions solving skill and the way to approach the questions. More of the course we got more positive 
+                  intent and motivation that cheers up to strive forward.
+                </p>
+
+                <p class="achiever-name">Athish</p>
+                <p class="achiever-rank">Current Affairs Batch Prelims 2025</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--contact section ------------------------------------------------------------------------------------------------------------ -->
+
+
+  <section id="contact" class="contact-wrapper">
+
+    <!-- LEFT -->
+    <div class="contact-left">
+      <h1>Enroll Now</h1>
+      <div class="underline"></div>
+      <p class="subtitle">Your journey to LBSNAA starts here. Let’s turn your dreams into reality.</p>
+
+      <h3>Feedback and Suggestions</h3>
+      <p>
+        We value your feedback and are continuously working to improve strength and knowledge.
+        Your input is crucial in shaping the future of Vishakan Sir's IAS Coaching classes.
+      </p>
+
+      <div class="contact-icons">
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email Us</span>
+          <small>vishakansirsclasses@gmail.com</small>
+          <div>
+          <i class="fa-solid fa-phone"></i>
+          <span>Call Us</span>
+          <small>+91-9025043764</small>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- CENTER FORM -->
+    <div class="contact-form-card">
+      <h2>Get in Touch</h2>
+      <p class="form-subtitle">Any Time Available..</p>
+
+      <!-- Toast (show/hide via JS) -->
+      <div id="contact-toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+      <!-- Use FormSubmit AJAX endpoint to avoid redirect (handle submit via fetch in JS) -->
+      <form id="contact-form" action="https://formsubmit.co/ajax/vishakansirsclasses@gmail.com" method="POST"
+        enctype="multipart/form-data">
+        <!-- honeypot -->
+       
+        <div class="row">
+          <input type="text" name="first_name" placeholder="First name" required>
+          <input type="text" name="last_name" placeholder="Last name" required>
+        </div>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Phone number" required inputmode="numeric" pattern="[0-9]*"
+          oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <div id="form-status" aria-live="polite"></div>
+      </form>
+
+      <p class="terms">
+        
+        <!-- <a href="./terms/terms.txt">Terms of service</a> and
+        <a href="./terms/privacy.txt">Privacy Policy</a>. -->
+      </p>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="contact-right">
+      <h1>Click Here.👇</h1>
+      <div class="underline"></div>
+
+      <div class="footer-box">
+        <ul>
+          <li><i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/channel/UCqRy4l9yhHSqoD-_k3LR5BA"
+              target="_blank">Vishakan Sir's IAS Coaching</a></li>
+          <li><i class="fa-brands fa-telegram"></i> <a href="https://t.me/vishakan_raman"
+              target="_blank">vishakan_raman</a></li>
+          <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/9025043764 " 
+              target="_blank">+91-90250 43764 </a></li>
+          <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/vishakansirsclasses/"
+              target="_blank">Vishakan Sir's IAS Coaching</a></li>
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <!-- 1) Academy -->
+      <div class="footer-col footer-about">
+        <h3 class="footer-title">Vishakan Sir's IAS Coaching</h3>
+        <p class="footer-text">
+         Your trusted partner in <br>
+         the civil services journey.
+        </p>
+      </div>
+
+      <!-- 2) Quick Links -->
+      <div class="footer-col footer-links">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-list">
+         <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+             <li><a href="#video">Videos</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- 3) Contact Info -->
+    </div>
+
+    <div class="footer-bottom">
+      Copyright © 2025 Vishakan Sir's IAS Coaching. All Rights Reserved by Vishakan Sir's IAS Coaching.
+    </div>
+  </footer>
+
+</body>
+
+</html>
